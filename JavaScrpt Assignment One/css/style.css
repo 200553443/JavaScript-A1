@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set black background and adjust text colors */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the h1 */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the sections */
+section {
+    margin: 20px;
+}
+
+/* Style the buttons */
+button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Style the story paragraph */
+#story {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+/* Style the playback buttons section */
+section:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style the playback buttons */
+#playback, #random, #reset {
+    margin: 10px;
+}
+
+/* Hover effect for playback buttons */
+#playback:hover, #random:hover, #reset:hover {
+    background-color: white;
+    color: black;
+}
